@@ -20,9 +20,7 @@ public class DepartmentController {
     @ResponseBody()
     public Message getDepts(){
         List<Department> list = service.getDepts();
-        list.forEach(System.out::println);
         Message depts = Message.success().add("depts", list);
-        System.out.println(depts);
         return depts;
     }
 

@@ -52,7 +52,6 @@ public class EmployeeController {
     @ResponseBody()
     public Message saveEmp(@Valid Employee employee, BindingResult result) {
         employeeService.saveEmp(employee);
-        System.out.println(result.hasErrors());
         if (result.hasErrors()) {
             Map<String, Object> map = new HashMap<>();
             List<FieldError> fieldErrors = result.getFieldErrors();
@@ -98,8 +97,6 @@ public class EmployeeController {
     public Message updateEmp(Employee employee){
 
         System.out.println("执行了put");
-        System.out.println(employee);
-
 
         int i =employeeService.updateEmp(employee);
 
