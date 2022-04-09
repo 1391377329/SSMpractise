@@ -1,0 +1,17 @@
+com\sqt\bean\EmployeeExample$Criterion.class
+com\sqt\bean\EmployeeExample.class
+com\sqt\controller\DepartmentController.class
+com\sqt\controller\EmployeeController.class
+com\sqt\bean\DepartmentExample$Criterion.class
+com\sqt\bean\DepartmentExample$Criteria.class
+com\sqt\bean\EmployeeExample$Criteria.class
+com\sqt\bean\Employee.class
+com\sqt\dao\mapper\DepartmentMapper.class
+com\sqt\bean\DepartmentExample.class
+com\sqt\service\DepartmentService.class
+com\sqt\bean\EmployeeExample$GeneratedCriteria.class
+com\sqt\bean\Department.class
+com\sqt\bean\DepartmentExample$GeneratedCriteria.class
+com\sqt\dao\mapper\EmployeeMapper.class
+com\sqt\service\EmployeeService.class
+com\sqt\bean\Message.class
